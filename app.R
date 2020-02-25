@@ -25,7 +25,7 @@ faqtext <-
   p(HTML(faq(q = "How many tweets collected?",
                  a = sprintf("Current version will collect about %s (or less) tweets each time query", nmax))
          ),
-    HTML(faq(q = "I found an issue/error, where do I report it?", a = "https://github.com/aephidayatuloh/kepooo/issues"))
+    HTML(faq(q = "I found an issue/error, where do I report it?", a = "https://github.com/aephidayatuloh/kepo/issues"))
     )
 
 ui <- bs4DashPage(navbar = bs4DashNavbar(skin = "light", 
@@ -86,8 +86,8 @@ loading_background = "blue")
 server <- function(input, output, session){
   tk <- readRDS("data/tkkepooo.rds")
   
-  shinyalert(title = "Welcome, Kepooo!", 
-             text = sprintf("Kepooo v%s (%s)<br/><br/>Just give me a username and I'll handle for you", v, vdt), 
+  shinyalert(title = "Welcome, Kepo!", 
+             text = sprintf("Kepo v%s (%s)<br/><br/>Just give me a username and I'll handle for you", v, vdt), 
              imageUrl = "img/logo_animation.png", imageWidth = 400, imageHeight = 150, confirmButtonText = "Get Started", 
              html = TRUE)
   

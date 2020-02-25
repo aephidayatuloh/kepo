@@ -1,0 +1,12 @@
+name: kepo
+title: kepo
+username:
+account: azures
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1674951
+bundleId: 2826376
+url: https://azures.shinyapps.io/kepo/
+when: 1582588947.87566
+asMultiple: FALSE
+asStatic: FALSE
